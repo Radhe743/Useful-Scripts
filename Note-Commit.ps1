@@ -1,9 +1,9 @@
-function Invoke-CommitNote {
+function CommitNote {
   param(
     [switch]$push
   )
 
-  function Invoke-RadheyShyam {
+  function RadheyShyam {
     Write-Host "Radhey Shyam..."
   }
 
@@ -47,7 +47,7 @@ function Invoke-CommitNote {
     if (git status --short) {
       git add -A
       git commit -m $commitMessage
-      Invoke-RadheyShyam
+      RadheyShyam
       Write-Host "Committed: $commitMessage"
       Add-NextCommitNumber
 
