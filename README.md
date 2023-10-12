@@ -26,5 +26,12 @@
    ```
    4. Reload your current session and you will be able to use it with the `Invoke-CommitNote` Command
 
-> May be in future I will make a script to automatically install this script into your ps1 file :))
+1. `Github-Shortcuts`
+   1. Unlocks the `Open-GH` and `New-Repo` commands
+   ## `Open-GH`
+      * `Open-GH -SetUser <username>` Set your github username this will be used to open your github homepage **(IMPORTANT)**
+      * `Open-GH` will open your github profile. 
+      * `Open-GH -Repo` will open your current repo
 
+   ## `New-GH`
+      * `New-GH` will open the github's repo creation page
