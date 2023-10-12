@@ -24,4 +24,3 @@ function Open-GH {
 function New-Repo {
   Start-Process "https://github.com/new"
 }
-Open-GH -repo
